@@ -1,0 +1,29 @@
+ <html>
+    
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col=3">
+            Account ID: <input class="num1" placeholder="input movie here" type="text" id="movie">
+            </div>
+        <div class= "col=3">
+            <input type="button" class="btn btn-danger btn-lg" value="Get all movies." onclick="findMovie()"></input>
+        </div>
+        </div>
+    </div>
+   
+
+         <table id="movieTable" border="1">
+          <tr>
+            <th>Title</th>  
+            <th>Year</th>    
+            <th>Type</th>    
+          </tr>
+        </table>
+
+        <div class= "col=3">
+            <input type="button" class="btn btn-danger btn-lg" value="More Detail" onclick="window.location.href= 'moreinformation.html', moreInformation()"></input>
+        </div>
+
+    <script src="movie.js"></script>
+
+    </html>
